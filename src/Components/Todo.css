@@ -1,0 +1,83 @@
+.container {
+    width: 400px;
+    margin: auto;
+    margin-top: 100px;
+    background-color: #162020d7;
+    border: none;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    width: auto;
+}
+
+button{
+    margin-left: 10px;
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.list {
+    margin-top: 30px !important;
+}
+
+li {
+    padding: 10px;
+    height: 20px;
+    list-style-type: none;
+    margin-bottom: 15px;
+    margin-left:  -20px;
+    background-color: black !important;
+    color: white;
+    border-radius: 10px;
+}
+
+input {
+    width: 600px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.list-items {
+    display: flex;
+}
+
+.list-items .list-items-list {
+    flex: 1;
+}
+
+.list-items .list-item-icons {
+    padding-left: 5px;
+    font-size: 25px;
+}
+
+#completed {
+    color: green;
+}
+
+#edit {
+    color: blue;
+}
+
+#delete {
+    color: red;
+}
+
+#list-item {
+    text-decoration: line-through;
+    opacity: 0.3;
+}
