@@ -4,7 +4,6 @@ import { IoMdDoneAll } from "react-icons/io";
 import { FiEdit } from "react-icons/fi";
 import { MdDelete } from "react-icons/md";
 
-//video completed 47:19
 
 function Todo() {
   const [todo, setTodo] = useState("");
@@ -51,7 +50,7 @@ const onEdit=(id)=>{
     setEditId(editTodo.id)
 }
 
-  const inputRef = useRef("null");
+  const inputRef = useRef(null);
 
   useEffect(() => {
     inputRef.current.focus();
